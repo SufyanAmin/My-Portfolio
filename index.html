@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sufyan's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="intro.html">My Intro</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main">
+
+        <section class="banner">
+            <div class="content">
+                <div>Hi, my name is <span class="text-black">Sufyan</span></div>
+                <div>I am a passionate</div>
+                <div>Web Developer</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="https://drive.google.com/file/d/1GbBRKKVa6mQfjyTcGsSgIOb7Kv8nNiap/view?usp=sharing"
+                        target="_blank"><button class="btn">Download Resume</button></a>
+                    <a href="https://github.com/SufyanAmin" target="_blank"><button class="btn">Visit
+                            Github</button></a>
+                </div>
+            </div>
+            <div class="image">
+                <img src="Images/sufyan pic.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+
+        <section class="second-section">
+            <div class="gray">What I have done so far?</div>
+            <h1>Expertise in skills</h1>
+            <div class="intro">
+                <div class="skillcontainer">
+                    <div class="skillItem">HTML: <div class="skill hundred"></div>
+                        <div class="percentage">100%</div>
+                    </div>
+                    <div class="skillItem">CSS: <div class="skill hundred"></div>
+                        <div class="percentage">100%</div>
+                    </div>
+                    <div class="skillItem">JavaScript: <div class="skill t5"></div>
+                        <div class="percentage">25%</div>
+                    </div>
+                    <div class="skillItem">Bootstrap: <div class="skill hundred"></div>
+                        <div class="percentage">100%</div>
+                    </div>
+                    <div class="skillItem">Figma: <div class="skill hundred"></div>
+                        <div class="percentage">100%</div>
+                    </div>
+                    <div class="skillItem">SEO: <div class="skill fifty"></div>
+                        <div class="percentage">50%</div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="Footer-first">
+                <h3>Sufyan's Developer Portfolio</h3>
+            </div>
+            <div class="Footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="Footer-third">
+                <img src="Images/S5.png" alt="">
+                <img src="Images/S4.png" alt="">
+            </div>
+            <div class="Footer-forth">
+                <img src="Images/S6.png" alt="">
+                <img src="Images/S7.png" alt="">
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169;sufyansportfolio.com | All rights reserverd
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Frontend Developer', 'HTML5', 'CSS3', 'JavaScript', 'Bootstrap', 'Figma', 'SEO'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
